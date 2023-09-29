@@ -9,30 +9,28 @@
 * {
      margin: 0;
      padding: 0;
-     margin-block-end: 0;
-     margin-block-start: 0;
-     scroll-behavior: smooth;
+     /*scroll-behavior: smooth;*/
  }
 
-
-
 body {
-    display: flex;
-    justify-content: center;
-    background-color: #222831;
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 400;
+    width: 100%; /*????*/
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-main {
+main, footer { /*Ася возможно тебе придется добавить еще head*/
     width: 1440px;
-
+    background-color: #222831;
 }
 
 .wave {
     position: relative;
-    margin-bottom: -4px;
+    margin-bottom: -5px;
 }
 
 /*section_8*/
@@ -120,7 +118,7 @@ main {
 .above_footer_label {
     display: flex;
     flex-direction: column;
-    padding: 0 40px 0 125px;
+    padding: 0 30px 0 125px;
 }
 
 .above_footer h1 {
@@ -144,7 +142,42 @@ main {
 
 /*end of section_9*/
 
+/*footer */
 
+.footer_main {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #29a19c;
+    padding-bottom: 40px;
+}
+
+.footer a {
+    padding-left: 65px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer_links {
+
+}
+
+.footer_line {
+    height: 12px;
+}
+
+/* end of footer*/
 
 
 
