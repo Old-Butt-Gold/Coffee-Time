@@ -1,41 +1,58 @@
 /*
-    У Grand Hotel вес (font-weight) только 1 — 400;
+    У Grand Hotel вес (font-weight)
+    только 1 — 400;
     У Montserrat два веса:
     Regular            400
     Bold               700
  */
 
 * {
-    margin: 0;
-    padding: 0;
-    margin-block-end: 0;
-    margin-block-start: 0;
-}
+     margin: 0;
+     padding: 0;
+     margin-block-end: 0;
+     margin-block-start: 0;
+     scroll-behavior: smooth;
+ }
+
+
 
 body {
-    width: 1440px;
+    display: flex;
+    justify-content: center;
     background-color: #222831;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    font-weight: 400;
+}
+
+main {
+    width: 1440px;
+
 }
 
 .wave {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: -4px;
+}
+
+/*section_8*/
+
+.branches {
+    padding: 0 0 50px 0;
 }
 
 .branches_title {
     font-family: 'Grand Hotel', sans-serif;
-    font-size: 70px;
-    text-align: center;
-    letter-spacing: 6px;
-    margin-bottom: 30px;
     font-weight: 400;
+    font-size: 85px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
 }
 
 .section_branches_workers_flexbox {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .section_branches_workers_column {
@@ -46,18 +63,93 @@ body {
 
 .branches_location_text {
     text-align: center;
-    padding-bottom: 45px;
-    padding-top: 40px;
+    position: relative;
+    width: 250px;
+    background-color: #29a19c;
+    border-radius: 15px 15px 15px 20px;
+
+    margin: 35px 0 30px 0;
+    padding: 10px 0;
+
     font-weight: 700;
     font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.branches_location_text::before {
+        content: "";
+        position: absolute;
+        top: 30px;
+        left: 4px;
+        width: 15px;
+        height: 43px;
+        background-color: #29a19c;
+        border-radius: 70%;
+        transform: rotate(-20deg);
 }
 
 .section_branches_workers_text {
-    width: 340px;
-    font-weight: 400;
+    width: 396px;
     font-size: 16px;
-    line-height: 25px;
-    padding: 0 60px 0 80px; /*top-right-bottom-left*/
+    line-height: 27px;
+    padding: 0 30px 0 35px; /*top-right-bottom-left*/
     text-align: center;
 }
+
+/*end of section_8*/
+
+/*section_9*/
+
+.information .above_footer {
+    background-color: #29a19c;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px 70px 70px;
+}
+
+.above_footer_logo {
+    height: 65px;
+    margin-top: -15px;
+}
+
+.above_footer_labels {
+    display: flex;
+    justify-content: space-around;
+}
+
+.above_footer_label {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 0 125px;
+}
+
+.above_footer h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 0 60px 0;
+}
+
+.above_footer_navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.above_footer_label a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/*end of section_9*/
+
+
+
+
+
+
+
+
+
 
