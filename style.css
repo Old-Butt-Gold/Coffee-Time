@@ -11,8 +11,10 @@
      padding: 0;
      margin-block-end: 0;
      margin-block-start: 0;
-     box-sizing: border-box;
+     scroll-behavior: smooth;
  }
+
+
 
 body {
     display: flex;
@@ -30,7 +32,7 @@ main {
 
 .wave {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: -4px;
 }
 
 /*section_8*/
@@ -67,7 +69,7 @@ main {
     border-radius: 15px 15px 15px 20px;
 
     margin: 35px 0 30px 0;
-    padding: 12px 0;
+    padding: 10px 0;
 
     font-weight: 700;
     font-size: 30px;
@@ -87,7 +89,7 @@ main {
 }
 
 .section_branches_workers_text {
-    width: 340px;
+    width: 396px;
     font-size: 16px;
     line-height: 27px;
     padding: 0 30px 0 35px; /*top-right-bottom-left*/
@@ -95,4 +97,59 @@ main {
 }
 
 /*end of section_8*/
+
+/*section_9*/
+
+.information .above_footer {
+    background-color: #29a19c;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px 70px 70px;
+}
+
+.above_footer_logo {
+    height: 65px;
+    margin-top: -15px;
+}
+
+.above_footer_labels {
+    display: flex;
+    justify-content: space-around;
+}
+
+.above_footer_label {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 0 125px;
+}
+
+.above_footer h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 0 60px 0;
+}
+
+.above_footer_navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.above_footer_label a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/*end of section_9*/
+
+
+
+
+
+
+
+
+
 
