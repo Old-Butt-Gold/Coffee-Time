@@ -36,7 +36,7 @@ main, footer { /*Ася возможно тебе придется добави�
 /*section_8*/
 
 .branches {
-    padding: 0 0 50px 0;
+    margin: 0 0 50px 0;
 }
 
 .branches_title {
@@ -65,32 +65,29 @@ main, footer { /*Ася возможно тебе придется добави�
     width: 250px;
     background-color: #29a19c;
     border-radius: 15px 15px 15px 20px;
-
     margin: 35px 0 30px 0;
     padding: 10px 0;
-
     font-weight: 700;
     font-size: 30px;
     letter-spacing: 2px;
 }
 
 .branches_location_text::before {
-        content: "";
-        position: absolute;
-        top: 30px;
-        left: 4px;
-        width: 15px;
-        height: 43px;
-        background-color: #29a19c;
-        border-radius: 70%;
-        transform: rotate(-20deg);
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 4px;
+    width: 15px;
+    height: 43px;
+    background-color: #29a19c;
+    border-radius: 70%;
+    transform: rotate(-20deg);
 }
 
 .section_branches_workers_text {
     width: 350px;
     font-size: 16px;
     line-height: 27px;
-    padding: 0 30px 0 35px; /*top-right-bottom-left*/
     text-align: center;
 }
 
@@ -120,7 +117,7 @@ main, footer { /*Ася возможно тебе придется добави�
 .above_footer_label {
     display: flex;
     flex-direction: column;
-    padding: 0 30px 0 125px;
+    margin: 0 30px 0 125px;
 }
 
 .above_footer h1 {
@@ -163,16 +160,25 @@ main, footer { /*Ася возможно тебе придется добави�
 }
 
 .footer nav {
-    padding-left: 5px;
+    margin-left: 6px;
 }
 
 .footer a {
-    padding-left: 58px;
+    margin-left: 58px;
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
+    transition: font-size 0.5s ease, text-shadow 0.5s;
 }
+
+.footer a:hover {
+    color: #222831;
+    text-shadow: 4px 4px 4px #333;
+    font-size: 30px;
+    transition: color 0.5s, text-shadow 0.5s, font-size 0.5s ease;
+}
+
 
 .footer_links {
     display: flex;
@@ -190,11 +196,3 @@ main, footer { /*Ася возможно тебе придется добави�
 }
 
 /* end of footer*/
-
-
-
-
-
-
-
-
