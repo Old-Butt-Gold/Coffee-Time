@@ -9,36 +9,34 @@
 * {
      margin: 0;
      padding: 0;
-     margin-block-end: 0;
-     margin-block-start: 0;
-     scroll-behavior: smooth;
+     /*scroll-behavior: smooth;*/
  }
 
-
-
 body {
-    display: flex;
-    justify-content: center;
-    background-color: #222831;
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 400;
+    width: 100%; /*????*/
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-main {
+main, footer { /*Ася возможно тебе придется добавить еще head*/
     width: 1440px;
-
+    background-color: #222831;
 }
 
 .wave {
     position: relative;
-    margin-bottom: -4px;
+    margin-bottom: -5px;
 }
 
 /*section_8*/
 
 .branches {
-    padding: 0 0 50px 0;
+    margin: 0 0 50px 0;
 }
 
 .branches_title {
@@ -67,32 +65,29 @@ main {
     width: 250px;
     background-color: #29a19c;
     border-radius: 15px 15px 15px 20px;
-
     margin: 35px 0 30px 0;
     padding: 10px 0;
-
     font-weight: 700;
     font-size: 30px;
     letter-spacing: 2px;
 }
 
 .branches_location_text::before {
-        content: "";
-        position: absolute;
-        top: 30px;
-        left: 4px;
-        width: 15px;
-        height: 43px;
-        background-color: #29a19c;
-        border-radius: 70%;
-        transform: rotate(-20deg);
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 4px;
+    width: 15px;
+    height: 43px;
+    background-color: #29a19c;
+    border-radius: 70%;
+    transform: rotate(-20deg);
 }
 
 .section_branches_workers_text {
     width: 350px;
     font-size: 16px;
     line-height: 27px;
-    padding: 0 30px 0 35px; /*top-right-bottom-left*/
     text-align: center;
 }
 
@@ -113,14 +108,16 @@ main {
 }
 
 .above_footer_labels {
+    letter-spacing: 2px;
     display: flex;
     justify-content: space-around;
+    margin-right: -20px;
 }
 
 .above_footer_label {
     display: flex;
     flex-direction: column;
-    padding: 0 40px 0 125px;
+    margin: 0 30px 0 125px;
 }
 
 .above_footer h1 {
@@ -144,12 +141,58 @@ main {
 
 /*end of section_9*/
 
+/*footer */
+
+.footer_main {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #29a19c;
+    padding-bottom: 40px;
+}
+
+.footer nav {
+    margin-left: 6px;
+}
+
+.footer a {
+    margin-left: 58px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    transition: font-size 0.5s ease, text-shadow 0.5s;
+}
+
+.footer a:hover {
+    color: #222831;
+    text-shadow: 4px 4px 4px #333;
+    font-size: 30px;
+    transition: color 0.5s, text-shadow 0.5s, font-size 0.5s ease;
+}
 
 
+.footer_links {
+    display: flex;
+    width: 20%;
+    margin-right: 30px;
+}
 
+.footer_links i {
+    margin: 0 13px 0 30px;
+    font-size: 20px;
+}
 
+.footer_line {
+    height: 12px;
+}
 
-
-
-
-
+/* end of footer*/
