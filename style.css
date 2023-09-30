@@ -111,8 +111,10 @@ main, footer { /*Ася возможно тебе придется добави�
 }
 
 .above_footer_labels {
+    letter-spacing: 2px;
     display: flex;
     justify-content: space-around;
+    margin-right: -20px;
 }
 
 .above_footer_label {
@@ -160,9 +162,12 @@ main, footer { /*Ася возможно тебе придется добави�
     padding-bottom: 40px;
 }
 
+.footer nav {
+    padding-left: 5px;
+}
+
 .footer a {
-    padding-left: 65px;
-    position: relative;
+    padding-left: 58px;
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -170,7 +175,14 @@ main, footer { /*Ася возможно тебе придется добави�
 }
 
 .footer_links {
+    display: flex;
+    width: 20%;
+    margin-right: 30px;
+}
 
+.footer_links i {
+    margin: 0 13px 0 30px;
+    font-size: 20px;
 }
 
 .footer_line {
