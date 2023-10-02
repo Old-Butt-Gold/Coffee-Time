@@ -37,6 +37,32 @@ main, footer { /*Ася возможно тебе придется добави�
 
 .branches {
     margin: 0 0 50px 0;
+    position: relative;
+}
+
+.absolute_object {
+    position: absolute;
+    opacity: 0.25;
+}
+
+.object_1 {
+    left: 316px;
+    top: -16px;
+}
+
+.object_2 {
+    right: 20px;
+    top: 32px;
+}
+
+.object_3 {
+    bottom: -40px;
+    left: 430px;
+}
+
+.object_4 {
+    bottom: -90px;
+    right: 425px;
 }
 
 .branches_title {
