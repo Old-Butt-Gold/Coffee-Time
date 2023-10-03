@@ -16,7 +16,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 400;
-    width: 100%; /*????*/
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -40,29 +39,55 @@ main, footer { /*Ася возможно тебе придется добави�
     position: relative;
 }
 
-.absolute_object {
+.object_container_1 {
+    margin-top: -17px;
     position: absolute;
     opacity: 0.25;
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    height: 117px;
 }
 
 .object_1 {
-    left: 316px;
-    top: -16px;
+    display: flex;
+    width: 26%;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
 
 .object_2 {
-    right: 20px;
-    top: 32px;
+    display: flex;
+    width: 74%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.object_container_2 {
+    position: absolute;
+    opacity: 0.25;
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    height: 10px;
+    bottom: 20px;
 }
 
 .object_3 {
-    bottom: -40px;
-    left: 430px;
+    display: flex;
+    width: 36%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: -25px;
 }
 
 .object_4 {
-    bottom: -90px;
-    right: 425px;
+    display: flex;
+    width: 64%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 25px;
 }
 
 .branches_title {
@@ -125,25 +150,30 @@ main, footer { /*Ася возможно тебе придется добави�
     background-color: #29a19c;
     display: flex;
     justify-content: space-between;
-    padding: 20px 70px 70px 70px;
+    padding-bottom: 70px;
 }
 
 .above_footer_logo {
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.above_footer_logo img {
     height: 65px;
-    margin-top: -15px;
 }
 
 .above_footer_labels {
     letter-spacing: 2px;
     display: flex;
     justify-content: space-around;
-    margin-right: -20px;
+    margin: 10px 70px 0 0;
+    width: 50%;
 }
 
 .above_footer_label {
     display: flex;
     flex-direction: column;
-    margin: 0 30px 0 125px;
+    margin: 30px 30px 0 25px; /* top-right-bottom-left*/
 }
 
 .above_footer h1 {
@@ -190,7 +220,7 @@ main, footer { /*Ася возможно тебе придется добави�
 }
 
 .footer a {
-    margin-left: 58px;
+    margin-left: 50px;
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -205,11 +235,11 @@ main, footer { /*Ася возможно тебе придется добави�
     transition: color 0.5s, text-shadow 0.5s, font-size 0.5s ease;
 }
 
-
 .footer_links {
     display: flex;
-    width: 20%;
-    margin-right: 30px;
+    justify-content: flex-start;
+
+    width: 26%;
 }
 
 .footer_links i {
