@@ -96,7 +96,7 @@ main, footer { /*Ася возможно тебе придется добави�
     font-weight: 400;
     font-size: 85px;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 4.3px;
     margin-bottom: 8px;
 }
 
@@ -155,17 +155,21 @@ main, footer { /*Ася возможно тебе придется добави�
 
 /*section_9*/
 
+.test {
+    margin: 0 3px 0 2px
+}
+
 .information .above_footer {
     background-color: #29a19c;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 70px;
+    padding-bottom: 68px;
     margin-top: -14px
 }
 
 .above_footer_logo {
-    margin-top: -5px;
-    margin-left: 60px;
+    margin-top: -4px;
+    margin-left: 60.5px;
 }
 
 .above_footer_logo img {
@@ -174,10 +178,9 @@ main, footer { /*Ася возможно тебе придется добави�
 
 .above_footer_labels {
     position: relative;
-    letter-spacing: 2px;
     display: flex;
     justify-content: space-around;
-    margin: -16px -4px 0 0;
+    margin: -17px -4px 0 0;
     width: 49%;
 }
 
@@ -189,7 +192,7 @@ main, footer { /*Ася возможно тебе придется добави�
 }
 
 .above_footer h1 {
-    letter-spacing: 2.5px;
+    letter-spacing: 2.6px;
     font-weight: 700;
     font-size: 31px;
     margin: 0 0 48px 0;
@@ -208,6 +211,14 @@ main, footer { /*Ася возможно тебе придется добави�
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 2.5px;
+}
+
+.section_9_a_marg {
+    margin-bottom: 1.5px;
+}
+
+.section_9_a_marg_2 {
+    margin-top: 0.5px;
 }
 
 /*end of section_9*/
@@ -231,11 +242,15 @@ main, footer { /*Ася возможно тебе придется добави�
 }
 
 .footer nav {
-    margin-left: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 61px;
+    width: 720px;
 }
 
 .footer a {
-    margin-left: 64.3px;
+    letter-spacing: 1px;
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -252,14 +267,32 @@ main, footer { /*Ася возможно тебе придется добави�
 
 .footer_links {
     display: flex;
-    justify-content: flex-end;
-    margin: -5px 53px 0 0;
-    width: 25%;
+    justify-content: flex-start;
+    width: 275px;
 }
 
 .footer_links i {
+    width: 23.5%;
+}
+
+.fa-facebook-f {
     font-size: 24px;
-    margin: 0 5px 0 38px;
+    margin: -4px 0 0 1px;
+}
+
+.fa-twitter {
+    font-size: 21px;
+    margin: -3px 0 0 2px;
+}
+
+.fa-youtube {
+    font-size: 21px;
+    margin: -1px 0 0 -1px;
+}
+
+.fa-instagram {
+    font-size: 23px;
+    margin: -1px 0 0 -2px;
 }
 
 .footer_line {
