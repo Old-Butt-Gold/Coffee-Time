@@ -7,10 +7,10 @@
  */
 
 * {
-     margin: 0;
-     padding: 0;
-     /*scroll-behavior: smooth;*/
- }
+    margin: 0;
+    padding: 0;
+    /*scroll-behavior: smooth;*/
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -88,7 +88,7 @@ main, footer { /*Ася возможно тебе придется добави�
     width: 64%;
     justify-content: center;
     align-items: flex-start;
-    margin: 20px 0 0 31px;
+    margin: 19px 0 0 31px;
 }
 
 .branches_title {
@@ -100,13 +100,23 @@ main, footer { /*Ася возможно тебе придется добави�
     margin-bottom: 8px;
 }
 
-.section_branches_workers_flexbox {
+.section_branches_workers_images {
     display: flex;
     justify-content: space-around;
 }
 
-.workers_center {
+.branches_image_center {
     margin: 0 40px;
+}
+
+.section_branches_workers_flexbox {
+    margin: 0 52px 0 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workers_center {
+    margin-right: -7px;
 }
 
 .section_branches_workers_column {
@@ -115,18 +125,14 @@ main, footer { /*Ася возможно тебе придется добави�
     align-items: center;
 }
 
-.lefter {
-    margin-left: -15px;
-}
-
 .branches_location_text {
     text-align: center;
     position: relative;
     width: 250px;
     background-color: #29a19c;
     border-radius: 20px 20px 20px 20px;
-    margin: 37px 0 34.5px 3px;
-    padding: 13px 0 13px 0;
+    margin: 37px 0 36.5px 2px;
+    padding: 13px 0 11px 0;
     font-weight: 700;
     font-size: 30px;
     letter-spacing: 4px;
@@ -148,6 +154,7 @@ main, footer { /*Ася возможно тебе придется добави�
     width: 350px;
     font-size: 16px;
     line-height: 27.7px;
+    margin-left: -3px;
     text-align: center;
 }
 
