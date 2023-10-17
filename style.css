@@ -37,16 +37,14 @@ main, footer { /*Ася возможно тебе придется добави�
     font-family: 'Grand Hotel', sans-serif;
     text-align: center;
     font-weight: 400;
-    margin: 0px;
     font-size: 85px;
 }
 
 .review figure{
-    font-weight: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 0px 70px;
+    align-items: center;
+    margin: 0 70px;
     width: 465px;
 }
 
@@ -58,16 +56,16 @@ main, footer { /*Ася возможно тебе придется добави�
     font-size: 52px;
 }
 
-.flowerPhotoRow{
+.flowerPhotoRow {
     background-image: url('assets/section_6-7/iconsFlowerPhotos.png');
-    background-position: 65px 100px ;
+    background-position: 65px 100px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.flowerPhoto{
+.flowerPhoto {
     width: 385px;
     margin: 50px 0 40px 0;
 }
