@@ -27,9 +27,96 @@ main, footer { /*Ася возможно тебе придется добави�
     background-color: #222831;
 }
 
+/*section_6*/
+
+.review {
+    color: #fefefe;
+}
+
+.review h1, .workSchedule h1{
+    font-family: 'Grand Hotel', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 85px;
+}
+
+.review figure{
+    font-weight: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 70px;
+    width: 465px;
+}
+
+.review h3{
+    font-family: 'Grand Hotel', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 23px;
+    font-size: 52px;
+}
+
+.flowerPhotoRow{
+    background-image: url('assets/section_6-7/iconsFlowerPhotos.png');
+    background-position: 65px 100px ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flowerPhoto{
+    width: 385px;
+    margin: 50px 0 40px 0;
+}
+
+.photoDescription{
+    width: 465px;
+    text-align: center;
+    font-size: 26px;
+}
+
+/*end of section_6*/
+
+/*section_7*/
+
+.workSchedule{
+    background-image: url('assets/section_6-7/iconsWorkSchedule.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1440px;
+    background-color: #29a19c;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.workDateTime{
+    display: flex;
+    flex-direction: column;
+}
+
+.workTime{
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+}
+
+.workDate{
+    font-weight: 700;
+    text-align: center;
+    font-size: 35px;
+}
+
+/*универсальный*/
 .wave {
     margin-bottom: -5px;
 }
+
+/*end of section_7*/
 
 /*section_8*/
 
