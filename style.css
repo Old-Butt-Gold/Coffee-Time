@@ -27,6 +27,213 @@ main, footer { /*Ася возможно тебе придется добави�
     background-color: #222831;
 }
 
+/*Для секций 3-5*/
+
+.button_class {
+    font-size: 33px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+
+    border-radius: 17px;
+    background-color: #29a19c;
+
+    border: 350px 49px;
+    padding: 15px 32px;
+}
+
+.title {
+    font-size: 125px;
+    letter-spacing: 5px;
+    line-height: 113px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    max-width: 333px;
+}
+
+/*section_3*/
+
+.orders {
+    background-image: url('assets/section_3/background_icons_img.png');
+    background-repeat: no-repeat;
+    background-blend-mode:soft-light;
+    background-position: center;
+    background-position-y: 31px;
+    margin-top: 0px;
+    margin-bottom: 98px;
+}
+
+#orders-container {
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1440px;
+    padding: 0 100px;
+}
+
+#orders-container .orders_ITEM {
+    margin-top: 40px;
+}
+
+.orders_IMG {
+    width: 505px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 34.8px;
+    margin-top: -43.5px;
+    margin-bottom: 86.8px;
+}
+
+#orders_RPart {
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+#orders_TITLE {
+    text-align: right;
+    margin-right: 77px;
+    margin-bottom: 60px;
+    margin-top: 64px;
+}
+
+#orders_BUTTON {
+    margin-top: 40px;
+    margin-left: 78px; 
+}
+
+#orders_BUTTON:hover {
+    background-color: white;
+    color: #29a19c;
+}
+
+.p-text {
+    font-size: 23px;
+    letter-spacing: 1.21px;
+    line-height: 41px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+#orders_TEXT{
+    margin-top: -55px;
+    margin-left: 36.6px; 
+    max-width: 599px;     
+}
+
+.wrapper {
+    max-width: 1440px;
+    padding: 0 5px;
+}
+
+/*end of section_3*/
+
+/*section_4*/
+
+.orders2 {
+    background-image: url('assets/section_4/backgrounf_icons_img.png');
+    background-repeat: no-repeat;
+    background-blend-mode:soft-light;
+    background-position: center; 
+}
+
+#orders2-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#orders2_LPart {
+    margin-left: 100px;
+}
+
+#orders2_TITLE {
+    text-align: left;
+    margin-top: 130px;
+    margin-bottom: 115px;
+    margin-left: 38px;
+}
+
+.orders2_RPart {
+    margin-right: 70px;
+}
+
+#orders2_IMG {
+    margin-right: 100px;
+    padding: 70px;
+}
+
+#orders2_BUTTON:hover {
+    background-color: white;
+    color: #29a19c;
+}
+
+#orders2_BUTTON {
+    margin-left: 38px;
+}
+
+#orders2_TEXT {
+    text-align: right;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: 166px; /*----->100PX!------*/
+}
+
+/*end of section_4*/
+
+/*section_5*/
+
+.vaucher {
+    background-image: url('assets/section_5/backgrounf_ivons_img.png');
+    background-repeat: no-repeat;
+    background-blend-mode:soft-light;
+    background-position: center;
+}
+
+.voucher-conteiner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+#voucher-text{
+    font-size: 131px;
+    line-height: 41px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+    margin-bottom: 63px;
+}
+
+#voucher_IMG {
+    margin: auto;
+    width: 802px;
+    height: 401px;
+    filter: drop-shadow(-12.586px 15.543px 13.5px rgba(0,0,0,0.31));
+    transition: 1s;
+    margin-bottom: 49px;
+}
+
+#voucher_IMG:hover {
+    transform: scale(1.2);
+}
+
+#get-voucher-now:hover {
+    background-color: white;
+    color: #29a19c;
+}
+
+/*end of section_5*/
+
 /*section_6*/
 
 .review {
