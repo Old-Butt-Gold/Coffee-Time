@@ -29,6 +29,7 @@ main, footer { /*Ася возможно тебе придется добави�
 
 /*Для секций 3-5*/
 
+/*
 .button_class {
     font-size: 33px;
     line-height: 28px;
@@ -38,12 +39,12 @@ main, footer { /*Ася возможно тебе придется добави�
 
     border-radius: 17px;
     background-color: #29a19c;
-
     border: 350px 49px;
     padding: 15px 32px;
 }
+*/
 
-.title {
+/*.title {
     font-size: 125px;
     letter-spacing: 5px;
     line-height: 113px;
@@ -53,7 +54,7 @@ main, footer { /*Ася возможно тебе придется добави�
     max-width: 333px;
 }
 
-/*section_3*/
+!*section_3*!
 
 .orders {
     background-image: url('assets/section_3/background_icons_img.png');
@@ -129,9 +130,9 @@ main, footer { /*Ася возможно тебе придется добави�
     padding: 0 5px;
 }
 
-/*end of section_3*/
+!*end of section_3*!
 
-/*section_4*/
+!*section_4*!
 
 .orders2 {
     background-image: url('assets/section_4/backgrounf_icons_img.png');
@@ -182,14 +183,14 @@ main, footer { /*Ася возможно тебе придется добави�
     text-align: right;
     max-width: 600px;
     margin-left: auto;
-    margin-right: 166px; /*----->100PX!------*/
+    margin-right: 166px; !*----->100PX!------*!
 }
 
-/*end of section_4*/
+!*end of section_4*!*/
 
 /*section_5*/
 
-.vaucher {
+/*.vaucher {
     background-image: url('assets/section_5/backgrounf_ivons_img.png');
     background-repeat: no-repeat;
     background-blend-mode:soft-light;
@@ -230,7 +231,7 @@ main, footer { /*Ася возможно тебе придется добави�
 #get-voucher-now:hover {
     background-color: white;
     color: #29a19c;
-}
+}*/
 
 /*end of section_5*/
 
@@ -240,32 +241,50 @@ main, footer { /*Ася возможно тебе придется добави�
     color: #fefefe;
 }
 
-.review h1, .workSchedule h1{
+.review h1 {
     font-family: 'Grand Hotel', sans-serif;
     text-align: center;
     font-weight: 400;
     font-size: 85px;
+    letter-spacing: 1px;
+    margin-left: -3px;
+    margin-top: 2px;
 }
 
-.review figure{
+.review figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 70px;
-    width: 465px;
+    margin: 1px 67px -10px 64px;
+    width: 490px;
 }
 
-.review h3{
+.review figure figcaption {
+    margin-top: -10px;
+    margin-left: -12px;
+}
+
+.review h3 {
     font-family: 'Grand Hotel', sans-serif;
     text-align: center;
     font-weight: 400;
-    margin-bottom: 23px;
+    letter-spacing: -0.7px;
+    margin-bottom: 20px;
     font-size: 52px;
+}
+
+#Ella {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.review p {
+    line-height: 28px;
 }
 
 .flowerPhotoRow {
     background-image: url('assets/section_6-7/iconsFlowerPhotos.png');
-    background-position: 65px 100px;
+    background-position: 65px 95px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
@@ -274,7 +293,7 @@ main, footer { /*Ася возможно тебе придется добави�
 
 .flowerPhoto {
     width: 385px;
-    margin: 50px 0 40px 0;
+    margin: 50px 0 50px 0;
 }
 
 .photoDescription{
@@ -287,30 +306,47 @@ main, footer { /*Ася возможно тебе придется добави�
 
 /*section_7*/
 
-.workSchedule{
+.open_time {
+    margin-top: 15px;
+}
+
+.workSchedule {
     background-image: url('assets/section_6-7/iconsWorkSchedule.png');
     background-position: center;
     background-repeat: no-repeat;
-    width: 1440px;
     background-color: #29a19c;
-    height: 610px;
+    height: 550px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.workDateTime{
-    display: flex;
-    flex-direction: column;
-}
-
-.workTime{
+.workSchedule h1 {
+    font-family: 'Grand Hotel', sans-serif;
+    text-align: center;
     font-weight: 400;
+    word-spacing: 2px;
+    letter-spacing: 2.6px;
+    margin: -9px 0 77px 0;
+    font-size: 100px;
+}
+
+.workDateTime {
+    margin-bottom: 102px;
+    display: flex;
+    flex-direction: column;
+}
+
+.workTime {
     text-align: center;
     font-size: 35px;
+    letter-spacing: 1px;
 }
 
-.workDate{
+.workDate {
+    letter-spacing: 1.3px;
+    margin-bottom: 5px;
+    margin-left: -3px;
     font-weight: 700;
     text-align: center;
     font-size: 35px;
@@ -341,7 +377,7 @@ main, footer { /*Ася возможно тебе придется добави�
 }
 
 .object_1 {
-    margin-left: 10px;
+    margin: -2px 0 0 9px;
     display: flex;
     width: 26%;
     align-items: flex-start;
@@ -353,8 +389,7 @@ main, footer { /*Ася возможно тебе придется добави�
     width: 74%;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-right: 64px;
-    margin-bottom: 10px;
+    margin: 0 64px 11px 0;
 }
 
 .object_container_2 {
@@ -372,7 +407,7 @@ main, footer { /*Ася возможно тебе придется добави�
     width: 36%;
     justify-content: flex-end;
     align-items: flex-start;
-    margin: -30px 0 0 10px;
+    margin: -31px 0 0 10px;
 }
 
 .object_4 {
@@ -380,7 +415,7 @@ main, footer { /*Ася возможно тебе придется добави�
     width: 64%;
     justify-content: center;
     align-items: flex-start;
-    margin: 19px 0 0 31px;
+    margin: 18px 0 0 31px;
 }
 
 .branches_title {
@@ -389,7 +424,7 @@ main, footer { /*Ася возможно тебе придется добави�
     font-size: 85px;
     text-align: center;
     letter-spacing: 4.3px;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
 }
 
 .section_branches_workers_images {
@@ -453,10 +488,6 @@ main, footer { /*Ася возможно тебе придется добави�
 /*end of section_8*/
 
 /*section_9*/
-
-.test {
-    margin: 0 3px 0 2px
-}
 
 .information .above_footer {
     background-color: #29a19c;
