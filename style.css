@@ -34,13 +34,12 @@ main, footer { /*Ася возможно тебе придется добави�
     line-height: 28px;
     color: #ffffff;
     font-weight: 700;
-    font-family: "Montserrat";
 
     border-radius: 17px;
     background-color: #29a19c;
 
-    border: 350px 49px;
-    padding: 15px 32px;
+    padding: 15px 30px;
+    letter-spacing: 2px;
 }
 
 .title {
@@ -49,7 +48,7 @@ main, footer { /*Ася возможно тебе придется добави�
     line-height: 113px;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Grand Hotel";
+    font-family: "Grand Hotel", sans-serif;
     max-width: 333px;
 }
 
@@ -115,7 +114,6 @@ main, footer { /*Ася возможно тебе придется добави�
     line-height: 41px;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Montserrat";
 }
 
 #orders_TEXT{
@@ -136,13 +134,11 @@ main, footer { /*Ася возможно тебе придется добави�
 .orders2 {
     background-image: url('assets/section_4/backgrounf_icons_img.png');
     background-repeat: no-repeat;
-    background-blend-mode:soft-light;
-    background-position: center; 
+    background-position: center;
+
 }
 
 #orders2-container {
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -194,6 +190,8 @@ main, footer { /*Ася возможно тебе придется добави�
     background-repeat: no-repeat;
     background-blend-mode:soft-light;
     background-position: center;
+    margin-left: 20px;
+    margin-top: -5px;
 }
 
 .voucher-conteiner {
@@ -201,26 +199,28 @@ main, footer { /*Ася возможно тебе придется добави�
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
+    margin-left: -20px;
 }
 
-#voucher-text{
+#voucher-text {
     font-size: 131px;
-    line-height: 41px;
+    line-height: 45px;
     color: #fefefe;
     font-weight: 400;
-    font-family: "Grand Hotel";
+    font-family: "Grand Hotel", sans-serif;
     text-align: center;
-    margin-bottom: 63px;
+    margin: -4px 0 64px -47px;
 }
 
 #voucher_IMG {
-    margin: auto;
     width: 802px;
     height: 401px;
     filter: drop-shadow(-12.586px 15.543px 13.5px rgba(0,0,0,0.31));
     transition: 1s;
-    margin-bottom: 49px;
+    margin-bottom: 43px;
+    margin-left: 2px;
+    margin-top: 2px;
 }
 
 #voucher_IMG:hover {
@@ -240,32 +240,50 @@ main, footer { /*Ася возможно тебе придется добави�
     color: #fefefe;
 }
 
-.review h1, .workSchedule h1{
+.review h1 {
     font-family: 'Grand Hotel', sans-serif;
     text-align: center;
     font-weight: 400;
     font-size: 85px;
+    letter-spacing: 1px;
+    margin-left: -3px;
+    margin-top: 2px;
 }
 
-.review figure{
+.review figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 70px;
-    width: 465px;
+    margin: 1px 67px -10px 64px;
+    width: 490px;
 }
 
-.review h3{
+.review figure figcaption {
+    margin-top: -10px;
+    margin-left: -12px;
+}
+
+.review h3 {
     font-family: 'Grand Hotel', sans-serif;
     text-align: center;
     font-weight: 400;
-    margin-bottom: 23px;
+    letter-spacing: -0.7px;
+    margin-bottom: 20px;
     font-size: 52px;
+}
+
+#Ella {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.review p {
+    line-height: 28px;
 }
 
 .flowerPhotoRow {
     background-image: url('assets/section_6-7/iconsFlowerPhotos.png');
-    background-position: 65px 100px;
+    background-position: 65px 95px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
@@ -274,7 +292,7 @@ main, footer { /*Ася возможно тебе придется добави�
 
 .flowerPhoto {
     width: 385px;
-    margin: 50px 0 40px 0;
+    margin: 50px 0 50px 0;
 }
 
 .photoDescription{
@@ -287,30 +305,46 @@ main, footer { /*Ася возможно тебе придется добави�
 
 /*section_7*/
 
-.workSchedule{
+.open_time {
+    margin-top: 15px;
+}
+
+.workSchedule {
     background-image: url('assets/section_6-7/iconsWorkSchedule.png');
     background-position: center;
     background-repeat: no-repeat;
-    width: 1440px;
     background-color: #29a19c;
-    height: 610px;
+    height: 550px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.workDateTime{
-    display: flex;
-    flex-direction: column;
-}
-
-.workTime{
+.workSchedule h1 {
+    font-family: 'Grand Hotel', sans-serif;
+    text-align: center;
     font-weight: 400;
+    word-spacing: 2px;
+    letter-spacing: 2.6px;
+    margin: -9px 0 77px 0;
+    font-size: 100px;
+}
+
+.workDateTime {
+    margin-bottom: 102px;
+    display: flex;
+    flex-direction: column;
+}
+
+.workTime {
     text-align: center;
     font-size: 35px;
 }
 
-.workDate{
+.workDate {
+    letter-spacing: 1.3px;
+    margin-bottom: 7px;
+    margin-left: -3px;
     font-weight: 700;
     text-align: center;
     font-size: 35px;
@@ -341,7 +375,7 @@ main, footer { /*Ася возможно тебе придется добави�
 }
 
 .object_1 {
-    margin-left: 10px;
+    margin: -2px 0 0 9px;
     display: flex;
     width: 26%;
     align-items: flex-start;
@@ -353,8 +387,7 @@ main, footer { /*Ася возможно тебе придется добави�
     width: 74%;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-right: 64px;
-    margin-bottom: 10px;
+    margin: 0 64px 11px 0;
 }
 
 .object_container_2 {
@@ -372,7 +405,7 @@ main, footer { /*Ася возможно тебе придется добави�
     width: 36%;
     justify-content: flex-end;
     align-items: flex-start;
-    margin: -30px 0 0 10px;
+    margin: -31px 0 0 10px;
 }
 
 .object_4 {
@@ -380,7 +413,7 @@ main, footer { /*Ася возможно тебе придется добави�
     width: 64%;
     justify-content: center;
     align-items: flex-start;
-    margin: 19px 0 0 31px;
+    margin: 18px 0 0 31px;
 }
 
 .branches_title {
@@ -389,7 +422,7 @@ main, footer { /*Ася возможно тебе придется добави�
     font-size: 85px;
     text-align: center;
     letter-spacing: 4.3px;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
 }
 
 .section_branches_workers_images {
@@ -453,10 +486,6 @@ main, footer { /*Ася возможно тебе придется добави�
 /*end of section_8*/
 
 /*section_9*/
-
-.test {
-    margin: 0 3px 0 2px
-}
 
 .information .above_footer {
     background-color: #29a19c;
@@ -591,7 +620,7 @@ main, footer { /*Ася возможно тебе придется добави�
 
 .fa-instagram {
     font-size: 23px;
-    margin: -1px 0 0 -2px;
+    margin: -3px 0 0 -2px;
 }
 
 .footer_line {
