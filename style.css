@@ -22,10 +22,198 @@ body {
     align-items: center;
 }
 
-main, footer { /*Ася возможно тебе придется добавить еще head*/
+main, footer, header {
     width: 1440px;
     background-color: #222831;
 }
+
+/*header*/
+
+header {
+    margin-top: 34px;
+}
+
+header .menu {
+    width: 791.4px;
+    float: left;
+    margin: 20.5px 0 70px 26.6px;
+}
+
+header .menu ul {
+    font-weight: 700;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .menu li a {
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 1.1px;
+    font-weight: bold;
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(41, 161, 156);
+}
+
+header .logo {
+    width: 230px;
+    float: right;
+    margin: 9px 47px 0 0;
+}
+
+/*end of header*/
+
+/*секция 1-2*/
+
+#main_block {
+    position: relative;
+}
+
+.MiniPicture1 {
+    position: absolute;
+    left: 15%;
+    top: 26%;
+    z-index: 10;
+}
+
+.CoffeeTime {
+    width: 690px;
+}
+
+.CoffeeTime h1 {
+    font-family: 'Grand Hotel', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 150px;
+    letter-spacing: 7.1px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.CoffeeTime h3 {
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 32px;
+    letter-spacing: 2.85px;
+    margin: 29.5px 0 0 57px;
+}
+
+.CoffeeTime p {
+    color: aliceblue;
+    letter-spacing: 0.17px;
+    line-height: 1.5;
+    margin: 13px 0 23px 58px;
+}
+
+.Cup {
+    position: absolute;
+    left: 43.5%;
+    top: 22.7%;
+}
+
+.Order {
+    margin-left: 57px;
+}
+
+.B1 {
+    background-color:  rgb(41, 161, 156);
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    width: 246px;
+    height: 57px;
+    letter-spacing: 0.8px;
+    position: absolute;
+    z-index: 11;
+    border-radius: 13.5px;
+    display: block;
+    cursor: pointer;
+}
+
+.B1:active {
+    background-color:  aliceblue;
+    color: rgb(41, 161, 156);
+}
+
+.section_1-2_Wave {
+    position: absolute;
+    margin-top: 95px;
+}
+
+.BlackCoffee p {
+    font-family: 'Grand Hotel', sans-serif;
+    color: aliceblue;
+    font-size: 126px;
+    margin-top: 31.7%;
+    margin-left: 9.4%;
+    letter-spacing: 4.4px;
+    line-height: 111.5px;
+    position: absolute;
+    z-index: 12;
+}
+
+.MiniPicture2 {
+    position: absolute;
+    left: 13.5%;
+    top: 167.4%;
+    z-index: 10;
+}
+
+#footer_block {
+    max-width: 1278px;
+    position: relative;
+    margin-top: 63.62%;
+}
+
+.B2 {
+    margin-left: 10.58%;
+    margin-top: -9.4%;
+    background-color: rgb(34, 40, 49);
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    width: 246px;
+    height: 57px;
+    letter-spacing: 0.8px;
+    border-radius: 13.5px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    z-index: 11;
+}
+
+.B2:active {
+    background-color: aliceblue;
+    color: rgb(34, 40, 49);
+}
+
+.Text {
+    margin-left: 45.3%;
+    font-size: 25px;
+    text-align: right;
+    line-height: 14.5px;
+    color: aliceblue;
+    margin-top: 62px;
+}
+
+.T1 {
+    letter-spacing: 0.8px;
+    line-height: 39.7px;
+}
+
+.CupOfCoffee {
+    position: absolute;
+    left: 50.8%;
+    top: 176.5%;
+}
+
+/*конец секции 1-2*/
 
 /*Для секций 3-5*/
 
