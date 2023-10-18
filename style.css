@@ -42,17 +42,17 @@ main, footer { /*Ася возможно тебе придется добави�
     letter-spacing: 2px;
 }
 
-/*.title {
+.title {
     font-size: 125px;
     letter-spacing: 5px;
     line-height: 113px;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Grand Hotel";
+    font-family: "Grand Hotel", sans-serif;
     max-width: 333px;
 }
 
-!*section_3*!
+/*section_3*/
 
 .orders {
     background-image: url('assets/section_3/background_icons_img.png');
@@ -114,7 +114,6 @@ main, footer { /*Ася возможно тебе придется добави�
     line-height: 41px;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Montserrat";
 }
 
 #orders_TEXT{
@@ -128,20 +127,18 @@ main, footer { /*Ася возможно тебе придется добави�
     padding: 0 5px;
 }
 
-!*end of section_3*!
+/*end of section_3*/
 
-!*section_4*!
+/*section_4*/
 
 .orders2 {
     background-image: url('assets/section_4/backgrounf_icons_img.png');
     background-repeat: no-repeat;
-    background-blend-mode:soft-light;
-    background-position: center; 
+    background-position: center;
+
 }
 
 #orders2-container {
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -181,12 +178,10 @@ main, footer { /*Ася возможно тебе придется добави�
     text-align: right;
     max-width: 600px;
     margin-left: auto;
-    margin-right: 166px; !*----->100PX!------*!
+    margin-right: 166px; /*----->100PX!------*/
 }
 
-!*end of section_4*!*/
-
-/*section_5*/
+/*end of section_4*/
 
 /*section_5*/
 
@@ -344,12 +339,11 @@ main, footer { /*Ася возможно тебе придется добави�
 .workTime {
     text-align: center;
     font-size: 35px;
-    letter-spacing: 1px;
 }
 
 .workDate {
     letter-spacing: 1.3px;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     margin-left: -3px;
     font-weight: 700;
     text-align: center;
