@@ -413,11 +413,17 @@ header .logo {
     height: 401px;
     filter: drop-shadow(-12.586px 15.543px 13.5px rgba(0,0,0,0.31));
     transition: 1s;
-    margin: 2px 0 44px 2px;
+    margin: 2px 0 43px 2px;
 }
 
 #voucher_IMG:hover {
     transform: scale(1.2);
+}
+
+#get-voucher-now {
+    font-size: 34px;
+    margin-top: 2px;
+    letter-spacing: 1.45px;
 }
 
 #get-voucher-now:hover {
@@ -437,9 +443,9 @@ header .logo {
     font-family: 'Grand Hotel', sans-serif;
     text-align: center;
     font-weight: 400;
-    font-size: 85px;
-    letter-spacing: 1px;
-    margin: -2px 0 0 -3px;
+    font-size: 86px;
+    letter-spacing: 0.5px;
+    margin: -2.4px 0 0 -6.5px;
 }
 
 .review figure {
@@ -451,24 +457,27 @@ header .logo {
 }
 
 .review figure figcaption {
-    margin: -10px 0 0 -12px;
+    margin: -10.5px 0 0 -9px;
 }
 
 .review h3 {
     font-family: 'Grand Hotel', sans-serif;
     text-align: center;
     font-weight: 400;
-    letter-spacing: -0.7px;
-    margin-bottom: 20px;
-    font-size: 52px;
+    letter-spacing: -0.35px;
+    margin-bottom: 24.5px;
+    font-size: 51px;
 }
 
 #Ella {
-    margin: 5px 0 15px 0;
+    margin: 7px -1px 16.5px 0;
 }
 
 .review p {
     line-height: 28px;
+    letter-spacing: 1.53px;
+    margin-left: 8px;
+    line-height: 27.5px;
 }
 
 .flowerPhotoRow {
@@ -482,13 +491,14 @@ header .logo {
 
 .flowerPhoto {
     width: 385px;
-    margin: 50px 0 50px 0;
+    margin: 51px 0 50px 0;
 }
 
 .photoDescription{
-    width: 465px;
+    width: 500px;
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
+    margin-right: -1px;
 }
 
 /*end of section_6*/
@@ -516,7 +526,7 @@ header .logo {
     font-weight: 400;
     word-spacing: 2px;
     letter-spacing: 2.6px;
-    margin: -9px 0 77px 0;
+    margin: -9px 0 77px 1px;
     font-size: 100px;
 }
 
@@ -529,14 +539,17 @@ header .logo {
 .workTime {
     text-align: center;
     font-size: 35px;
+    letter-spacing: 1.7px;
+    word-spacing: -4.5px;
+    margin-right: 9px;
 }
 
 .workDate {
-    letter-spacing: 1.3px;
-    margin: 0 0 7px -3px;
+    letter-spacing: 0.9px;
+    margin: 0 0 5.4px -2px;
     font-weight: 700;
     text-align: center;
-    font-size: 35px;
+    font-size: 36px;
 }
 
 /*универсальный*/
