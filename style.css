@@ -476,7 +476,6 @@ main, footer, header {
 }
 
 .review p {
-    line-height: 28px;
     letter-spacing: 1.53px;
     margin-left: 8px;
     line-height: 27.5px;
@@ -805,7 +804,7 @@ main, footer, header {
     transition: font-size 0.5s ease, text-shadow 0.5s;
 }
 
-.footer a:hover, .above_footer_navigation a:hover {
+.footer a:hover, .above_footer_navigation a:hover, .footer_links i:hover {
     color: #222831;
     text-shadow: 4px 4px 4px #333;
     /*font-size: 30px;*/
@@ -819,6 +818,7 @@ main, footer, header {
 }
 
 .footer_links i {
+    cursor: pointer;
     width: 23.5%;
 }
 
