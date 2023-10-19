@@ -69,22 +69,22 @@ header .logo {
 
 /*секция 1-2*/
 
-#main_block {
+#main-block {
     position: relative;
 }
 
-.MiniPicture1 {
+.icons-ct {
     position: absolute;
     left: 15%;
     top: 26%;
     z-index: 10;
 }
 
-.CoffeeTime {
+.Coffee-Time {
     width: 690px;
 }
 
-.CoffeeTime h1 {
+.Coffee-Time h1 {
     font-family: 'Grand Hotel', sans-serif;
     font-weight: 400;
     color: aliceblue;
@@ -94,7 +94,7 @@ header .logo {
     margin-bottom: 0;
 }
 
-.CoffeeTime h3 {
+.Coffee-Time h3 {
     font-weight: 700;
     color: aliceblue;
     font-size: 32px;
@@ -102,7 +102,7 @@ header .logo {
     margin: 29.5px 0 0 57px;
 }
 
-.CoffeeTime p {
+.Coffee-Time p {
     color: aliceblue;
     letter-spacing: 0.17px;
     line-height: 1.5;
@@ -145,7 +145,7 @@ header .logo {
     margin-top: 95px;
 }
 
-.BlackCoffee p {
+.Black-Coffee p {
     font-family: 'Grand Hotel', sans-serif;
     color: aliceblue;
     font-size: 126px;
@@ -157,14 +157,14 @@ header .logo {
     z-index: 12;
 }
 
-.MiniPicture2 {
+.icons-cot {
     position: absolute;
     left: 13.5%;
     top: 167.4%;
     z-index: 10;
 }
 
-#footer_block {
+#footer-block {
     max-width: 1278px;
     position: relative;
     margin-top: 63.62%;
@@ -207,7 +207,7 @@ header .logo {
     line-height: 39.7px;
 }
 
-.CupOfCoffee {
+.Cup-Of-Coffee {
     position: absolute;
     left: 50.8%;
     top: 176.5%;
@@ -217,7 +217,7 @@ header .logo {
 
 /*Для секций 3-5*/
 
-.button_class {
+.button-class {
     font-size: 33px;
     line-height: 28px;
     color: #ffffff;
@@ -230,7 +230,7 @@ header .logo {
     letter-spacing: 2px;
 }
 
-.title {
+.title-text {
     font-size: 125px;
     letter-spacing: 5px;
     line-height: 113px;
@@ -242,14 +242,21 @@ header .logo {
 
 /*section_3*/
 
+/* #ord-wave {
+    padding: 100px 0 0 0;
+    margin: 100px 0 0 0;
+} */
+
+#ord-wave {
+    margin: 30px auto auto auto;
+}
+
 .orders {
     background-image: url('assets/section_3/background_icons_img.png');
     background-repeat: no-repeat;
     background-blend-mode:soft-light;
     background-position: center;
     background-position-y: 31px;
-    margin-top: 0px;
-    margin-bottom: 98px;
 }
 
 #orders-container {
@@ -258,40 +265,35 @@ header .logo {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 1440px;
-    padding: 0 100px;
 }
 
-#orders-container .orders_ITEM {
+/* #orders-container .orders-ITEM {
     margin-top: 40px;
-}
+} */
 
-.orders_IMG {
+.orders-IMG {
     width: 505px;
     display: flex;
     justify-content: space-between;
-    margin-left: 34.8px;
-    margin-top: -43.5px;
-    margin-bottom: 86.8px;
+    padding: 0 0 0 100px;
+    margin: -42px 0 0 35px;
 }
 
-#orders_RPart {
-    margin-top: 60px;
-    margin-right: 100px;
+#orders-RPart {
+    margin-top: 20px;
 }
 
-#orders_TITLE {
+#orders-TITLE {
     text-align: right;
-    margin-right: 77px;
-    margin-bottom: 60px;
-    margin-top: 64px;
+    margin: 100px 79px 0 0;
+    padding: 0 100px 0 0;
 }
 
-#orders_BUTTON {
-    margin-top: 40px;
-    margin-left: 78px; 
+#orders-BUTTON {
+    margin: 100px 0 0 90px;
 }
 
-#orders_BUTTON:hover {
+#orders-BUTTON:hover {
     background-color: white;
     color: #29a19c;
 }
@@ -304,9 +306,9 @@ header .logo {
     font-weight: 400;
 }
 
-#orders_TEXT{
-    margin-top: -55px;
-    margin-left: 36.6px; 
+#orders-TEXT{
+    padding: 5px 0 0 100px;
+    margin: -34px 0 0 35px;
     max-width: 599px;     
 }
 
@@ -323,7 +325,7 @@ header .logo {
     background-image: url('assets/section_4/backgrounf_icons_img.png');
     background-repeat: no-repeat;
     background-position: center;
-
+    margin-bottom: 59px;
 }
 
 #orders2-container {
@@ -333,40 +335,42 @@ header .logo {
     
 }
 
-#orders2_LPart {
+#orders2-LPart {
     margin-left: 100px;
+    margin-top: 100px;
 }
 
-#orders2_TITLE {
+#orders2-TITLE {
     text-align: left;
-    margin-top: 130px;
-    margin-bottom: 115px;
-    margin-left: 38px;
+    margin: 17px 0 0 3px;
+    padding: 100px 0 0 30px;
 }
 
-.orders2_RPart {
-    margin-right: 70px;
+/* .orders2_RPart {
+    margin: 0 0 0 auto;
+    padding-right: 100px;
+} */
+
+#orders2-IMG {
+    margin: 0 100px 20px 0;
+    padding: 89px 73px 0 0;
 }
 
-#orders2_IMG {
-    margin-right: 100px;
-    padding: 70px;
-}
-
-#orders2_BUTTON:hover {
+#orders2-BUTTON:hover {
     background-color: white;
     color: #29a19c;
 }
 
-#orders2_BUTTON {
+#orders2-BUTTON {
     margin-left: 38px;
+    margin-top: 95px;
 }
 
-#orders2_TEXT {
+#orders2-TEXT {
     text-align: right;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: 166px; /*----->100PX!------*/
+    max-width: 599px;
+    margin: 0 100px 0 auto;
+    padding: 5px 69px 0 0;
 }
 
 /*end of section_4*/
@@ -379,7 +383,7 @@ header .logo {
     background-blend-mode:soft-light;
     background-position: center;
     margin-left: 20px;
-    margin-top: -5px;
+    margin-top: 85px;
 }
 
 .voucher-conteiner {
@@ -401,7 +405,7 @@ header .logo {
     margin: -4px 0 64px -47px;
 }
 
-#voucher_IMG {
+#voucher-IMG {
     width: 802px;
     height: 401px;
     filter: drop-shadow(-12.586px 15.543px 13.5px rgba(0,0,0,0.31));
