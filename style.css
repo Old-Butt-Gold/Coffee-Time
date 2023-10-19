@@ -39,7 +39,7 @@ header {
 header .menu {
     width: 791.4px;
     float: left;
-    margin: 20.5px 0 70px 26.6px;
+    margin: 22px 0 69.4px 26.6px;
 }
 
 header .menu ul {
@@ -65,7 +65,7 @@ header .menu li a:hover {
 header .logo {
     width: 230px;
     float: right;
-    margin: 9px 47px 0 0;
+    margin: 10.6px 47px 0 0;
 }
 
 /*end of header*/
@@ -85,49 +85,50 @@ header .logo {
 }
 
 .Coffee-Time {
-    width: 690px;
+    width: 695px;
 }
 
 .Coffee-Time h1 {
     font-family: 'Grand Hotel', sans-serif;
     font-weight: 400;
-    font-size: 150px;
-    letter-spacing: 7.1px;
-    margin: 0 0 0 50px;
+    font-size: 151px;
+    letter-spacing: 6.85px;
+    margin: 0 0 0 49px;
 }
 
 .Coffee-Time h3 {
     font-weight: 700;
     font-size: 32px;
     letter-spacing: 2.85px;
-    margin: 29.5px 0 0 57px;
+    margin: 28px 0 0 57px;
 }
 
 .Coffee-Time p {
     letter-spacing: 0.17px;
     line-height: 1.5;
-    margin: 13px 0 23px 58px;
+    margin: 14px 0 22.5px 58px;
 }
 
 .Cup {
     position: absolute;
     left: 43.5%;
-    top: 22.7%;
+    top: 22.9%;
 }
 
 .Order {
-    margin-left: 57px;
+    margin-left: 56.5px;
 }
 
 .B1 {
     background-color:  rgb(41, 161, 156);
     color: aliceblue;
-    font-size: 32px;
+    font-size: 33px;
     font-weight: 700;
     border: none;
     width: 246px;
     height: 57px;
-    letter-spacing: 0.8px;
+    letter-spacing: 2.7px;
+    word-spacing: -4.5px;
     position: absolute;
     z-index: 11;
     border-radius: 13.5px;
@@ -170,15 +171,16 @@ header .logo {
 }
 
 .B2 {
-    margin: -9.4% 0 0 10.58%;
+    margin: -9.27% 0 0 10.58%;
     background-color: rgb(34, 40, 49);
     color: aliceblue;
-    font-size: 32px;
+    font-size: 33px;
     font-weight: 700;
     border: none;
     width: 246px;
-    height: 57px;
-    letter-spacing: 0.8px;
+    height: 57.3px;
+    letter-spacing: 2.7px;
+    word-spacing: -4.5px;
     border-radius: 13.5px;
     display: block;
     cursor: pointer;
@@ -218,11 +220,11 @@ header .logo {
     line-height: 28px;
     color: white;
     font-weight: 700;
-    border-color: #29a19c;
-    border-radius: 17px;
+    border-radius: 13px;
     background-color: #29a19c;
     padding: 15px 30px;
     letter-spacing: 2px;
+    border: none;
 }
 
 .title-text {
@@ -282,12 +284,12 @@ header .logo {
 
 #orders-TITLE {
     text-align: right;
-    margin: 100px 79px 0 0;
+    margin: 99.2px 78px 0 0;
     padding: 0 100px 0 0;
 }
 
 #orders-BUTTON {
-    margin: 100px 0 0 92px;
+    margin: 101px 0 0 92.8px;
 }
 
 #orders-BUTTON:hover {
@@ -297,7 +299,7 @@ header .logo {
 
 .p-text {
     font-size: 23px;
-    letter-spacing: 1.21px;
+    letter-spacing: 1.26px;
     line-height: 41px;
     color: #ffffff;
     font-weight: 400;
@@ -305,8 +307,8 @@ header .logo {
 
 #orders-TEXT {
     padding: 5px 0 0 100px;
-    margin: -34px 0 0 35px;
-    max-width: 599px;     
+    margin: -33px 0 0 35px;
+    max-width: 620px;     
 }
 
 .wrapper {
@@ -341,8 +343,8 @@ header .logo {
 
 #orders2-TITLE {
     text-align: left;
-    margin: 17px 0 0 3px;
-    padding: 100px 0 0 30px;
+    margin: 18px 0 0 3px;
+    padding: 100px 0 1.2px 30px;
 }
 
 /* .orders2_RPart {
@@ -361,14 +363,17 @@ header .logo {
 }
 
 #orders2-BUTTON {
-    margin: 95px 0 0 38px;
+    margin: 96px 0 0 35px;
+    letter-spacing: 1.9px;
 }
 
 #orders2-TEXT {
     text-align: right;
-    max-width: 599px;
+    max-width: 610px;
     margin: 0 100px 0 auto;
-    padding: 5px 69px 0 0;
+    padding: 15px 66.2px 0 0;
+    letter-spacing: 0.48px;
+    line-height: 38.8px;
 }
 
 /*end of section_4*/
@@ -399,7 +404,8 @@ header .logo {
     font-weight: 400;
     font-family: "Grand Hotel", sans-serif;
     text-align: center;
-    margin: -4px 0 64px -47px;
+    margin: -1px 0 64px -48.5px;
+    letter-spacing: -0.1px;
 }
 
 #voucher-IMG {
@@ -407,7 +413,7 @@ header .logo {
     height: 401px;
     filter: drop-shadow(-12.586px 15.543px 13.5px rgba(0,0,0,0.31));
     transition: 1s;
-    margin: 2px 0 43px 2px;
+    margin: 2px 0 44px 2px;
 }
 
 #voucher_IMG:hover {
