@@ -32,24 +32,25 @@ main, footer, header {
 
 /*header*/
 
-header {
+#nav {
     margin-top: 34px;
+    height: 50px;
 }
 
-header .menu {
+#nav .menu {
     width: 791.4px;
     float: left;
-    margin: 20.5px 0 70px 26.6px;
+    margin: 22px 0 69.4px 26.6px;
 }
 
-header .menu ul {
+#nav .menu ul {
     font-weight: 700;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
 }
 
-header .menu li a {
+#nav .menu li a {
     font-size: 25px;
     color: aliceblue;
     text-decoration: none;
@@ -57,15 +58,15 @@ header .menu li a {
     font-weight: bold;
 }
 
-header .menu li a:hover {
+#nav .menu li a:hover {
     text-decoration: underline;
     text-decoration-color: rgb(41, 161, 156);
 }
 
-header .logo {
+#nav .logo {
     width: 230px;
     float: right;
-    margin: 9px 47px 0 0;
+    margin: 10.6px 47px 0 0;
 }
 
 /*end of header*/
@@ -80,54 +81,55 @@ header .logo {
 .icons-ct {
     position: absolute;
     left: 15%;
-    top: 26%;
+    top: 17.8%;
     z-index: 10;
 }
 
-.Coffee-Time {
-    width: 690px;
+#main-block .Coffee-Time {
+    width: 695px;
 }
 
 .Coffee-Time h1 {
     font-family: 'Grand Hotel', sans-serif;
     font-weight: 400;
-    font-size: 150px;
-    letter-spacing: 7.1px;
-    margin: 0 0 0 50px;
+    font-size: 151px;
+    letter-spacing: 6.85px;
+    margin: 0 0 0 49px;
 }
 
 .Coffee-Time h3 {
     font-weight: 700;
     font-size: 32px;
     letter-spacing: 2.85px;
-    margin: 29.5px 0 0 57px;
+    margin: 28px 0 0 57px;
 }
 
 .Coffee-Time p {
     letter-spacing: 0.17px;
     line-height: 1.5;
-    margin: 13px 0 23px 58px;
+    margin: 14px 0 22.5px 58px;
 }
 
 .Cup {
     position: absolute;
     left: 43.5%;
-    top: 22.7%;
+    top: 14%;
 }
 
 .Order {
-    margin-left: 57px;
+    margin-left: 56.5px;
 }
 
 .B1 {
     background-color:  rgb(41, 161, 156);
     color: aliceblue;
-    font-size: 32px;
+    font-size: 33px;
     font-weight: 700;
     border: none;
     width: 246px;
     height: 57px;
-    letter-spacing: 0.8px;
+    letter-spacing: 2.7px;
+    word-spacing: -4.5px;
     position: absolute;
     z-index: 11;
     border-radius: 13.5px;
@@ -158,7 +160,7 @@ header .logo {
 .icons-cot {
     position: absolute;
     left: 13.5%;
-    top: 167.4%;
+    top: 175.4%;
     z-index: 10;
 }
 
@@ -170,15 +172,16 @@ header .logo {
 }
 
 .B2 {
-    margin: -9.4% 0 0 10.58%;
+    margin: -9.27% 0 0 10.58%;
     background-color: rgb(34, 40, 49);
     color: aliceblue;
-    font-size: 32px;
+    font-size: 33px;
     font-weight: 700;
     border: none;
     width: 246px;
-    height: 57px;
-    letter-spacing: 0.8px;
+    height: 57.3px;
+    letter-spacing: 2.7px;
+    word-spacing: -4.5px;
     border-radius: 13.5px;
     display: block;
     cursor: pointer;
@@ -203,10 +206,10 @@ header .logo {
     line-height: 39.7px;
 }
 
-.Cup-Of-Coffee {
+#Cup-Of-Coffee {
     position: absolute;
     left: 50.8%;
-    top: 176.5%;
+    top: 184.8%;
 }
 
 /*конец секции 1-2*/
@@ -218,11 +221,12 @@ header .logo {
     line-height: 28px;
     color: white;
     font-weight: 700;
-    border-color: #29a19c;
-    border-radius: 17px;
+    border-radius: 13px;
     background-color: #29a19c;
     padding: 15px 30px;
     letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
 }
 
 .title-text {
@@ -282,12 +286,12 @@ header .logo {
 
 #orders-TITLE {
     text-align: right;
-    margin: 100px 79px 0 0;
+    margin: 99.2px 78px 0 0;
     padding: 0 100px 0 0;
 }
 
 #orders-BUTTON {
-    margin: 100px 0 0 92px;
+    margin: 101px 0 0 92.8px;
 }
 
 #orders-BUTTON:hover {
@@ -297,7 +301,7 @@ header .logo {
 
 .p-text {
     font-size: 23px;
-    letter-spacing: 1.21px;
+    letter-spacing: 1.26px;
     line-height: 41px;
     color: #ffffff;
     font-weight: 400;
@@ -305,8 +309,8 @@ header .logo {
 
 #orders-TEXT {
     padding: 5px 0 0 100px;
-    margin: -34px 0 0 35px;
-    max-width: 599px;     
+    margin: -33px 0 0 35px;
+    max-width: 620px;     
 }
 
 .wrapper {
@@ -341,8 +345,8 @@ header .logo {
 
 #orders2-TITLE {
     text-align: left;
-    margin: 17px 0 0 3px;
-    padding: 100px 0 0 30px;
+    margin: 18px 0 0 3px;
+    padding: 100px 0 1.2px 30px;
 }
 
 /* .orders2_RPart {
@@ -361,14 +365,17 @@ header .logo {
 }
 
 #orders2-BUTTON {
-    margin: 95px 0 0 38px;
+    margin: 96px 0 0 35px;
+    letter-spacing: 1.9px;
 }
 
 #orders2-TEXT {
     text-align: right;
-    max-width: 599px;
+    max-width: 610px;
     margin: 0 100px 0 auto;
-    padding: 5px 69px 0 0;
+    padding: 15px 66.2px 0 0;
+    letter-spacing: 0.48px;
+    line-height: 38.8px;
 }
 
 /*end of section_4*/
@@ -399,7 +406,8 @@ header .logo {
     font-weight: 400;
     font-family: "Grand Hotel", sans-serif;
     text-align: center;
-    margin: -4px 0 64px -47px;
+    margin: -1px 0 64px -48.5px;
+    letter-spacing: -0.1px;
 }
 
 #voucher-IMG {
@@ -412,6 +420,12 @@ header .logo {
 
 #voucher_IMG:hover {
     transform: scale(1.2);
+}
+
+#get-voucher-now {
+    font-size: 34px;
+    margin-top: 2px;
+    letter-spacing: 1.45px;
 }
 
 #get-voucher-now:hover {
@@ -431,9 +445,9 @@ header .logo {
     font-family: 'Grand Hotel', sans-serif;
     text-align: center;
     font-weight: 400;
-    font-size: 85px;
-    letter-spacing: 1px;
-    margin: -2px 0 0 -3px;
+    font-size: 86px;
+    letter-spacing: 0.5px;
+    margin: -2.4px 0 0 -6.5px;
 }
 
 .review figure {
@@ -445,24 +459,27 @@ header .logo {
 }
 
 .review figure figcaption {
-    margin: -10px 0 0 -12px;
+    margin: -10.5px 0 0 -9px;
 }
 
 .review h3 {
     font-family: 'Grand Hotel', sans-serif;
     text-align: center;
     font-weight: 400;
-    letter-spacing: -0.7px;
-    margin-bottom: 20px;
-    font-size: 52px;
+    letter-spacing: -0.35px;
+    margin-bottom: 24.5px;
+    font-size: 51px;
 }
 
 #Ella {
-    margin: 5px 0 15px 0;
+    margin: 7px -1px 16.5px 0;
 }
 
 .review p {
     line-height: 28px;
+    letter-spacing: 1.53px;
+    margin-left: 8px;
+    line-height: 27.5px;
 }
 
 .flowerPhotoRow {
@@ -476,13 +493,14 @@ header .logo {
 
 .flowerPhoto {
     width: 385px;
-    margin: 50px 0 50px 0;
+    margin: 51px 0 50px 0;
 }
 
 .photoDescription{
-    width: 465px;
+    width: 500px;
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
+    margin-right: -1px;
 }
 
 /*end of section_6*/
@@ -493,7 +511,7 @@ header .logo {
     margin-top: 15px;
 }
 
-.workSchedule {
+#workSchedule {
     background-image: url('assets/section_6-7/iconsWorkSchedule.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -504,33 +522,44 @@ header .logo {
     justify-content: space-between;
 }
 
-.workSchedule h1 {
+#workSchedule h1 {
     font-family: 'Grand Hotel', sans-serif;
     text-align: center;
     font-weight: 400;
     word-spacing: 2px;
     letter-spacing: 2.6px;
-    margin: -9px 0 77px 0;
+    margin: -9px 0 76px 1px;
     font-size: 100px;
 }
 
 .workDateTime {
-    margin-bottom: 102px;
+    margin-bottom: 99px;
     display: flex;
     flex-direction: column;
 }
 
 .workTime {
     text-align: center;
-    font-size: 35px;
+    font-size: 36.1px;
+    letter-spacing: 1.15px;
+    word-spacing: -4.3px;
+    margin-right: 8.8px;
 }
 
 .workDate {
-    letter-spacing: 1.3px;
-    margin: 0 0 7px -3px;
+    letter-spacing: 0.9px;
+    margin: 0 0 5.4px -2px;
     font-weight: 700;
     text-align: center;
-    font-size: 35px;
+    font-size: 36px;
+}
+
+.workTime2 {
+    text-align: center;
+    font-size: 36.1px;
+    letter-spacing: 1.5px;
+    word-spacing: -3.25px;
+    margin-right: 8.5px;
 }
 
 /*универсальный*/
@@ -602,10 +631,12 @@ header .logo {
 .branches_title {
     font-family: 'Grand Hotel', sans-serif;
     font-weight: 400;
-    font-size: 85px;
+    font-size: 85.5px;
     text-align: center;
     letter-spacing: 4.3px;
     margin-bottom: 8px;
+    margin-top: 1px;
+    margin-left: 2px;
 }
 
 .sect_7_wave {
@@ -622,25 +653,27 @@ header .logo {
 }
 
 .section_branches_workers_flexbox {
-    margin: 0 52px 0 45px;
+    margin: 0 54.7px 0 45px;
     display: flex;
     justify-content: space-between;
 }
 
 .workers_center {
-    margin-right: -7px;
+    margin-right: -14px;
 }
 
 .section_branches_workers_column {
     display: flex;
     flex-direction: column;
     align-items: center;
+    letter-spacing: 0.15px;
+    word-spacing: -0.1px;
 }
 
 .branches_location_text {
     text-align: center;
     position: relative;
-    width: 250px;
+    width: 248px;
     background-color: #29a19c;
     border-radius: 20px 20px 20px 20px;
     margin: 37px 0 36.5px 2px;
@@ -666,7 +699,7 @@ header .logo {
     width: 350px;
     font-size: 16px;
     line-height: 27.7px;
-    margin-left: -3px;
+    margin-left: -1.5px;
     text-align: center;
 }
 
