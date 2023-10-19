@@ -32,24 +32,25 @@ main, footer, header {
 
 /*header*/
 
-header {
+#nav {
     margin-top: 34px;
+    height: 50px;
 }
 
-header .menu {
+#nav .menu {
     width: 791.4px;
     float: left;
     margin: 22px 0 69.4px 26.6px;
 }
 
-header .menu ul {
+#nav .menu ul {
     font-weight: 700;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
 }
 
-header .menu li a {
+#nav .menu li a {
     font-size: 25px;
     color: aliceblue;
     text-decoration: none;
@@ -57,12 +58,12 @@ header .menu li a {
     font-weight: bold;
 }
 
-header .menu li a:hover {
+#nav .menu li a:hover {
     text-decoration: underline;
     text-decoration-color: rgb(41, 161, 156);
 }
 
-header .logo {
+#nav .logo {
     width: 230px;
     float: right;
     margin: 10.6px 47px 0 0;
@@ -80,11 +81,11 @@ header .logo {
 .icons-ct {
     position: absolute;
     left: 15%;
-    top: 26%;
+    top: 17.8%;
     z-index: 10;
 }
 
-.Coffee-Time {
+#main-block .Coffee-Time {
     width: 695px;
 }
 
@@ -112,7 +113,7 @@ header .logo {
 .Cup {
     position: absolute;
     left: 43.5%;
-    top: 22.9%;
+    top: 14%;
 }
 
 .Order {
@@ -159,7 +160,7 @@ header .logo {
 .icons-cot {
     position: absolute;
     left: 13.5%;
-    top: 167.4%;
+    top: 175.4%;
     z-index: 10;
 }
 
@@ -205,10 +206,10 @@ header .logo {
     line-height: 39.7px;
 }
 
-.Cup-Of-Coffee {
+#Cup-Of-Coffee {
     position: absolute;
     left: 50.8%;
-    top: 176.5%;
+    top: 184.8%;
 }
 
 /*конец секции 1-2*/
@@ -225,6 +226,7 @@ header .logo {
     padding: 15px 30px;
     letter-spacing: 2px;
     border: none;
+    cursor: pointer;
 }
 
 .title-text {
@@ -509,7 +511,7 @@ header .logo {
     margin-top: 15px;
 }
 
-.workSchedule {
+#workSchedule {
     background-image: url('assets/section_6-7/iconsWorkSchedule.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -520,28 +522,28 @@ header .logo {
     justify-content: space-between;
 }
 
-.workSchedule h1 {
+#workSchedule h1 {
     font-family: 'Grand Hotel', sans-serif;
     text-align: center;
     font-weight: 400;
     word-spacing: 2px;
     letter-spacing: 2.6px;
-    margin: -9px 0 77px 1px;
+    margin: -9px 0 76px 1px;
     font-size: 100px;
 }
 
 .workDateTime {
-    margin-bottom: 102px;
+    margin-bottom: 99px;
     display: flex;
     flex-direction: column;
 }
 
 .workTime {
     text-align: center;
-    font-size: 35px;
-    letter-spacing: 1.7px;
-    word-spacing: -4.5px;
-    margin-right: 9px;
+    font-size: 36.1px;
+    letter-spacing: 1.15px;
+    word-spacing: -4.3px;
+    margin-right: 8.8px;
 }
 
 .workDate {
@@ -550,6 +552,14 @@ header .logo {
     font-weight: 700;
     text-align: center;
     font-size: 36px;
+}
+
+.workTime2 {
+    text-align: center;
+    font-size: 36.1px;
+    letter-spacing: 1.5px;
+    word-spacing: -3.25px;
+    margin-right: 8.5px;
 }
 
 /*универсальный*/
@@ -621,10 +631,12 @@ header .logo {
 .branches_title {
     font-family: 'Grand Hotel', sans-serif;
     font-weight: 400;
-    font-size: 85px;
+    font-size: 85.5px;
     text-align: center;
     letter-spacing: 4.3px;
     margin-bottom: 8px;
+    margin-top: 1px;
+    margin-left: 2px;
 }
 
 .sect_7_wave {
@@ -641,25 +653,27 @@ header .logo {
 }
 
 .section_branches_workers_flexbox {
-    margin: 0 52px 0 45px;
+    margin: 0 54.7px 0 45px;
     display: flex;
     justify-content: space-between;
 }
 
 .workers_center {
-    margin-right: -7px;
+    margin-right: -14px;
 }
 
 .section_branches_workers_column {
     display: flex;
     flex-direction: column;
     align-items: center;
+    letter-spacing: 0.15px;
+    word-spacing: -0.1px;
 }
 
 .branches_location_text {
     text-align: center;
     position: relative;
-    width: 250px;
+    width: 248px;
     background-color: #29a19c;
     border-radius: 20px 20px 20px 20px;
     margin: 37px 0 36.5px 2px;
@@ -685,7 +699,7 @@ header .logo {
     width: 350px;
     font-size: 16px;
     line-height: 27.7px;
-    margin-left: -3px;
+    margin-left: -1.5px;
     text-align: center;
 }
 
