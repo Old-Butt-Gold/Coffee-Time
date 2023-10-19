@@ -81,7 +81,7 @@ main, footer, header {
 .icons-ct {
     position: absolute;
     left: 15%;
-    top: 17.2%;
+    top: 1.1%;
     z-index: 10;
 }
 
@@ -113,7 +113,7 @@ main, footer, header {
 .Cup {
     position: absolute;
     left: 43.5%;
-    top: 13.5%;
+    top: -3.1%;
 }
 
 .Order {
@@ -160,7 +160,7 @@ main, footer, header {
 .icons-cot {
     position: absolute;
     left: 13.5%;
-    top: 175.4%;
+    top: 190.4%;
     z-index: 10;
 }
 
@@ -209,7 +209,7 @@ main, footer, header {
 #Cup-Of-Coffee {
     position: absolute;
     left: 50.8%;
-    top: 185.8%;
+    top: 202.3%;
 }
 
 /*конец секции 1-2*/
