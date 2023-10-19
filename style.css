@@ -9,7 +9,10 @@
 * {
     margin: 0;
     padding: 0;
-    /*scroll-behavior: smooth;*/
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -71,6 +74,7 @@ header .logo {
 
 #main-block {
     position: relative;
+    color: aliceblue;
 }
 
 .icons-ct {
@@ -87,23 +91,19 @@ header .logo {
 .Coffee-Time h1 {
     font-family: 'Grand Hotel', sans-serif;
     font-weight: 400;
-    color: aliceblue;
     font-size: 150px;
     letter-spacing: 7.1px;
-    margin-left: 50px;
-    margin-bottom: 0;
+    margin: 0 0 0 50px;
 }
 
 .Coffee-Time h3 {
     font-weight: 700;
-    color: aliceblue;
     font-size: 32px;
     letter-spacing: 2.85px;
     margin: 29.5px 0 0 57px;
 }
 
 .Coffee-Time p {
-    color: aliceblue;
     letter-spacing: 0.17px;
     line-height: 1.5;
     margin: 13px 0 23px 58px;
@@ -147,10 +147,8 @@ header .logo {
 
 .Black-Coffee p {
     font-family: 'Grand Hotel', sans-serif;
-    color: aliceblue;
     font-size: 126px;
-    margin-top: 31.7%;
-    margin-left: 9.4%;
+    margin: 31.7% 0 0 9.4%;
     letter-spacing: 4.4px;
     line-height: 111.5px;
     position: absolute;
@@ -167,12 +165,12 @@ header .logo {
 #footer-block {
     max-width: 1278px;
     position: relative;
-    margin-top: 63.62%;
+    margin: 63.62% 0 0 0;
+    color: aliceblue;
 }
 
 .B2 {
-    margin-left: 10.58%;
-    margin-top: -9.4%;
+    margin: -9.4% 0 0 10.58%;
     background-color: rgb(34, 40, 49);
     color: aliceblue;
     font-size: 32px;
@@ -194,12 +192,10 @@ header .logo {
 }
 
 .Text {
-    margin-left: 45.3%;
+    margin: 62px 0 0 45.3%;
     font-size: 25px;
     text-align: right;
     line-height: 14.5px;
-    color: aliceblue;
-    margin-top: 62px;
 }
 
 .T1 {
@@ -220,12 +216,11 @@ header .logo {
 .button-class {
     font-size: 33px;
     line-height: 28px;
-    color: #ffffff;
+    color: white;
     font-weight: 700;
-
+    border-color: #29a19c;
     border-radius: 17px;
     background-color: #29a19c;
-
     padding: 15px 30px;
     letter-spacing: 2px;
 }
@@ -234,7 +229,7 @@ header .logo {
     font-size: 125px;
     letter-spacing: 5px;
     line-height: 113px;
-    color: #ffffff;
+    color: white;
     font-weight: 400;
     font-family: "Grand Hotel", sans-serif;
     max-width: 333px;
@@ -248,7 +243,7 @@ header .logo {
 } */
 
 #ord-wave {
-    margin: 30px auto auto auto;
+    margin: 30px 0 0 0;
 }
 
 .orders {
@@ -256,11 +251,13 @@ header .logo {
     background-repeat: no-repeat;
     background-blend-mode:soft-light;
     background-position: center;
-    background-position-y: 31px;
+    background-position-y: 26px;
+    background-position-x: -1.5px;
+    padding-bottom: 5px;
 }
 
 #orders-container {
-    margin: auto 0;
+    margin: 0 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -290,7 +287,7 @@ header .logo {
 }
 
 #orders-BUTTON {
-    margin: 100px 0 0 90px;
+    margin: 100px 0 0 92px;
 }
 
 #orders-BUTTON:hover {
@@ -306,7 +303,7 @@ header .logo {
     font-weight: 400;
 }
 
-#orders-TEXT{
+#orders-TEXT {
     padding: 5px 0 0 100px;
     margin: -34px 0 0 35px;
     max-width: 599px;     
@@ -325,7 +322,10 @@ header .logo {
     background-image: url('assets/section_4/backgrounf_icons_img.png');
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 59px;
+    background-position-x: 250px;
+    background-position-y: 77px;
+    padding-bottom: 70px;
+    margin-top: -5px;
 }
 
 #orders2-container {
@@ -336,8 +336,7 @@ header .logo {
 }
 
 #orders2-LPart {
-    margin-left: 100px;
-    margin-top: 100px;
+    margin: 100px 0 0 100px;
 }
 
 #orders2-TITLE {
@@ -362,8 +361,7 @@ header .logo {
 }
 
 #orders2-BUTTON {
-    margin-left: 38px;
-    margin-top: 95px;
+    margin: 95px 0 0 38px;
 }
 
 #orders2-TEXT {
@@ -382,8 +380,7 @@ header .logo {
     background-repeat: no-repeat;
     background-blend-mode:soft-light;
     background-position: center;
-    margin-left: 20px;
-    margin-top: 85px;
+    margin: 14px 0 4px 20px;
 }
 
 .voucher-conteiner {
@@ -410,9 +407,7 @@ header .logo {
     height: 401px;
     filter: drop-shadow(-12.586px 15.543px 13.5px rgba(0,0,0,0.31));
     transition: 1s;
-    margin-bottom: 43px;
-    margin-left: 2px;
-    margin-top: 2px;
+    margin: 2px 0 43px 2px;
 }
 
 #voucher_IMG:hover {
@@ -438,8 +433,7 @@ header .logo {
     font-weight: 400;
     font-size: 85px;
     letter-spacing: 1px;
-    margin-left: -3px;
-    margin-top: 2px;
+    margin: -2px 0 0 -3px;
 }
 
 .review figure {
@@ -451,8 +445,7 @@ header .logo {
 }
 
 .review figure figcaption {
-    margin-top: -10px;
-    margin-left: -12px;
+    margin: -10px 0 0 -12px;
 }
 
 .review h3 {
@@ -465,8 +458,7 @@ header .logo {
 }
 
 #Ella {
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin: 5px 0 15px 0;
 }
 
 .review p {
@@ -475,7 +467,7 @@ header .logo {
 
 .flowerPhotoRow {
     background-image: url('assets/section_6-7/iconsFlowerPhotos.png');
-    background-position: 65px 95px;
+    background-position: 65px 92px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
@@ -535,8 +527,7 @@ header .logo {
 
 .workDate {
     letter-spacing: 1.3px;
-    margin-bottom: 7px;
-    margin-left: -3px;
+    margin: 0 0 7px -3px;
     font-weight: 700;
     text-align: center;
     font-size: 35px;
@@ -614,7 +605,11 @@ header .logo {
     font-size: 85px;
     text-align: center;
     letter-spacing: 4.3px;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
+}
+
+.sect_7_wave {
+    margin-top: -2px;
 }
 
 .section_branches_workers_images {
@@ -688,8 +683,7 @@ header .logo {
 }
 
 .above_footer_logo {
-    margin-top: -4px;
-    margin-left: 60.5px;
+    margin: -4px 0 0 60.5px;
 }
 
 .above_footer_logo img {
@@ -724,7 +718,7 @@ header .logo {
     margin-left: 2px;
 }
 
-.above_footer_label a {
+.above_footer_navigation a {
     position: relative;
     color: white;
     text-decoration: none;
@@ -778,10 +772,10 @@ header .logo {
     transition: font-size 0.5s ease, text-shadow 0.5s;
 }
 
-.footer a:hover {
+.footer a:hover, .above_footer_navigation a:hover {
     color: #222831;
     text-shadow: 4px 4px 4px #333;
-    font-size: 30px;
+    /*font-size: 30px;*/
     transition: color 0.5s, text-shadow 0.5s, font-size 0.5s ease;
 }
 
