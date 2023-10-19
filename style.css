@@ -40,7 +40,7 @@ main, footer, header {
 #nav .menu {
     width: 791.4px;
     float: left;
-    margin: 22px 0 69.4px 26.6px;
+    margin: 20px 0 69.4px 26.6px;
 }
 
 #nav .menu ul {
@@ -66,7 +66,7 @@ main, footer, header {
 #nav .logo {
     width: 230px;
     float: right;
-    margin: 10.6px 47px 0 0;
+    margin: 9.5px 47px 0 0;
 }
 
 /*end of header*/
@@ -81,7 +81,7 @@ main, footer, header {
 .icons-ct {
     position: absolute;
     left: 15%;
-    top: 17.8%;
+    top: 17.2%;
     z-index: 10;
 }
 
@@ -107,13 +107,13 @@ main, footer, header {
 .Coffee-Time p {
     letter-spacing: 0.17px;
     line-height: 1.5;
-    margin: 14px 0 22.5px 58px;
+    margin: 13.5px 0 22.6px 58px;
 }
 
 .Cup {
     position: absolute;
     left: 43.5%;
-    top: 14%;
+    top: 13.5%;
 }
 
 .Order {
@@ -209,7 +209,7 @@ main, footer, header {
 #Cup-Of-Coffee {
     position: absolute;
     left: 50.8%;
-    top: 184.8%;
+    top: 185.8%;
 }
 
 /*конец секции 1-2*/
@@ -423,9 +423,9 @@ main, footer, header {
 }
 
 #get-voucher-now {
-    font-size: 34px;
+    font-size: 34.2px;
     margin-top: 2px;
-    letter-spacing: 1.45px;
+    letter-spacing: 1.4px;
 }
 
 #get-voucher-now:hover {
@@ -548,10 +548,10 @@ main, footer, header {
 
 .workDate {
     letter-spacing: 0.9px;
-    margin: 0 0 5.4px -2px;
+    margin: 0.9px 0 4.6px -2px;
     font-weight: 700;
     text-align: center;
-    font-size: 36px;
+    font-size: 36.2px;
 }
 
 .workTime2 {
@@ -735,7 +735,7 @@ main, footer, header {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 20px 53px 20px 35px; /* top-right-bottom-left*/
+    margin: 20px 52.4px 20px 35px; /* top-right-bottom-left*/
 }
 
 .above_footer h1 {
@@ -829,7 +829,7 @@ main, footer, header {
 
 .fa-twitter {
     font-size: 21px;
-    margin: -3px 0 0 2px;
+    margin: -4px 0 0 2px;
 }
 
 .fa-youtube {
@@ -839,7 +839,7 @@ main, footer, header {
 
 .fa-instagram {
     font-size: 23px;
-    margin: -3px 0 0 -2px;
+    margin: -2px 0 0 -2px;
 }
 
 .footer_line {
